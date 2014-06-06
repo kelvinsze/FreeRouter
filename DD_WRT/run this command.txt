@@ -1,0 +1,2 @@
+nvram set rc_startup='/jffs/pptp/run.sh'
+nvram commit
