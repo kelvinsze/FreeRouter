@@ -32,7 +32,7 @@ $1 -net 69.63.0.0/16 $2
 $1 -net 96.17.8.0/24 $2
 # imgN.imageshack.us
 $1 -net 208.75.252.0/24 $2
-$1 -net 208.94.3.0/24 $2                                                            
+$1 -net 208.94.3.0/24 $2
 $1 -net 38.99.77.0/24 $2  
 $1 -net 38.99.76.0/24 $2  
 # static.plurk.com
@@ -1383,10 +1383,15 @@ $1 -net 199.96.57.0/24 $2
 $1 -net 74.113.233.0/24 $2
 $1 -net 107.162.133.0/24 $2
 $1 -host 107.162.132.45 $2
+#add for player.vimeo.com
+$1 -host 107.162.132.42 $2
 #add for f.vimeocdn.com
 $1 -host 103.245.222.143 $2
 #add for i.vmeocdn.com
 $1 -host 199.27.77.143 $2
+$1 -host 199.27.79.143 $2
+#add for secure-c.vimeocdn.com
+$1 -host 23.77.8.24 $2
 #add for strong vpn
 $1 -host 216.131.84.126 $2
 #add for privace internet access.com
@@ -1501,4 +1506,72 @@ $1 -host 206.190.36.45 $2
 #add for wordpress.com
 $1 -host 66.155.11.243 $2
 $1 -host 192.0.82.252 $2
+$1 -host 192.0.80.250 $2
+$1 -host 192.0.81.250 $2
+#add for gracecode.com
+$1 -host 182.118.12.245 $2
+#add for digglife.cn
+$1 -host 107.170.44.116 $2
+#Add for cdn.sstatic.net
+$1 -host 190.93.244.58 $2
+$1 -host 190.93.246.58 $2
+$1 -host 190.93.247.58 $2
+$1 -host 190.93.245.58 $2
+$1 -host 141.101.114.59 $2
 ################################################End Custom Part####################################################
+#Add for fuliba.net
+$1 -host 106.186.120.103 $2
+#Add for blog.goo.ne.jp
+$1 -host 202.217.72.80 $2
+#Add for myfreemp3.eu
+$1 -host 108.162.193.204 $2
+$1 -host 108.162.192.204 $2
+#Add for www.discuss.com.hk
+$1 -host 183.178.34.168 $2
+$1 -host 183.178.66.25 $2
+$1 -host 14.136.68.7 $2
+$1 -host 58.176.50.119 $2
+$1 -host 119.246.26.95 $2
+$1 -host 123.202.254.169 $2
+$1 -host 124.244.8.57 $2
+$1 -host 124.244.43.61 $2
+#Add for rich98.com
+$1 -host 50.22.233.82 $2
+#Add for www.molo.me
+$1 -host 54.214.18.112 $2
+#Add for www.tumblr.com
+$1 -host 66.6.43.20 $2
+$1 -host 66.6.42.20 $2
+#Add for tinypic.com
+$1 -host 209.17.68.209 $2
+#Add for cdnjs.cloudflare.com
+$1 -host 198.41.213.183 $2
+$1 -host 198.41.213.185 $2
+$1 -host 198.41.213.184 $2
+$1 -host 198.41.212.186 $2
+$1 -host 198.41.212.183 $2
+$1 -host 198.41.213.186 $2
+$1 -host 198.41.212.184 $2
+$1 -host 198.41.212.185 $2
+#Add for www.rfa.org
+$1 -host 118.155.230.40 $2
+$1 -host 118.155.230.26 $2
+#Add for www.depic.me
+$1 -host 94.242.221.145 $2
+#Add for online.wsj.com
+$1 -host 205.203.140.65 $2
+$1 -host 205.203.140.1 $2
+#Add for stats.wordpress.com
+$1 -host 192.0.76.2 $2
+#Add for en.support.wordpress.com
+$1 -host 66.155.11.244 $2
+$1 -host 66.155.9.244 $2
+$1 -host 76.74.255.123 $2
+$1 -host 192.0.83.250 $2
+$1 -host 76.74.255.117 $2
+$1 -host 192.0.82.250 $2
+#Add for cn.wsj.com
+$1 -host 210.155.101.136 $2
+$1 -host 210.155.101.152 $2
+#Add for s3.amazonaws.com
+$1 -host 207.171.189.80 $2
