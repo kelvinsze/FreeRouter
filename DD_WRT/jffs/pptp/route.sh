@@ -1561,5 +1561,18 @@ $1 -host 76.74.255.117 $2
 $1 -host 192.0.82.250 $2
 #Add for cn.wsj.com
 $1 -host 210.155.101.136 $2
-$1 -host 210.155.101.152 $2#Add for home.netvigator.com
+$1 -host 210.155.101.152 $2
+#Add for home.netvigator.com
 $1 -host 218.102.48.43 $2
+#Add for www.porntube.com
+$1 -host 198.41.185.175 $2
+$1 -host 198.41.191.174 $2
+$1 -host 198.41.184.175 $2
+$1 -host 198.41.189.174 $2
+$1 -host 198.41.190.174 $2
+#Add for cdn1.l3.porntubecdn.com
+$1 -host 8.27.249.125 $2
+#Add for tkn.porntube.com
+$1 -host 208.99.72.39 $2
+#Add for www.wujieliulan.com
+$1 -host 65.49.14.131 $2
