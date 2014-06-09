@@ -1570,6 +1570,7 @@ $1 -host 198.41.191.174 $2
 $1 -host 198.41.184.175 $2
 $1 -host 198.41.189.174 $2
 $1 -host 198.41.190.174 $2
+$1 -host 111.119.1.87 $2
 #Add for cdn1.l3.porntubecdn.com
 $1 -net 8.27.249.0/24 $2
 #Add for tkn.porntube.com
@@ -1578,3 +1579,5 @@ $1 -host 208.99.72.39 $2
 $1 -host 65.49.14.131 $2
 #Add for cdn1.thumnails.4tube.com
 $1 -host 208.99.72.36 $2
+#Add for t66y.com
+$1 -host 184.154.178.130 $2
