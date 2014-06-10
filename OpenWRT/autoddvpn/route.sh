@@ -1581,3 +1581,5 @@ $1 -host 65.49.14.131 $2
 $1 -host 208.99.72.36 $2
 #Add for t66y.com
 $1 -host 184.154.178.130 $2
+#Add for pixel-gun-3d.wikia.com
+$1 -host 103.245.222.131 $2
