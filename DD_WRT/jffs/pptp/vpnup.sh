@@ -109,7 +109,7 @@ do
 done
 
 echo "$INFO static routes added"
-echo "Restart Dnsmasq Service" >> $LOG
+echo "$INFO $(date "+%d/%b/%Y:%H:%M:%S")Restart Dnsmasq Service" >> $LOG
 stopservice dnsmasq
 startservice dnsmasq
 echo "$INFO $(date "+%d/%b/%Y:%H:%M:%S") vpnup.sh ended" >> $LOG
