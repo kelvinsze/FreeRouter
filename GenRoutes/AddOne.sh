@@ -2,7 +2,7 @@
 #NS Lookup for domain passed through shell command 
 #And Generate Route add command for host
 #Author:Bi Qin
-#Website:http://www.lifetype.com
+#Website:http://www.lifetyper.com
 #Version:X00 
 #Date2014-05-20
 
