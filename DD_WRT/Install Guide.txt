@@ -1,0 +1,24 @@
+1.Enable SSHd Service In Service Tab Through Web GUI
+2.Enable SSH Management In Manage Tab Through Web GUI
+3.Enable JFFS2 and clear JFFS in Manage Tab Through Web GUI
+4.Reboot
+5.Put All Files to DD-WRT Router Flash By WinSCP or Any SFTP Tool,keep the
+folder structure as is was.
+6.SSH Login in to DD-WRT Router,"chmod +x to *.sh" to make all scripts you
+just upload excuteable.
+7."cd /jffs"
+8."./install.sh"
+
+我觉得我写英文说明真蛋疼,用得上这个得必须是中国人啊.
+1.在DD-WRT的管理页面,进入服务栏,开启SSHd服务,
+2.然后进入管理栏,开启SSH管理(以上两条是为了让你能使用SSH管理路由)
+3.还是在管理栏,启用JFFS2,保存,应用,启用清除JFFS2,应用,禁用清除JFFS2,保存
+4.重启路由(必须重启,否则JFFS2构建不会完成)
+5.用WinSCP或者FlashFXP这类支持SFTP的工具上传所有脚本,保持目录一直不要乱改.
+6.SSH登录进路由,在你上传脚本的目录,运行"chmod +x
+*.sh"让刚才上传的脚本都有执行权限.
+7."cd /jffs"
+8."./insall.sh"
+
+注:安装脚本默认会把路由机器名改成"DD-WRT",其实这个你修改成别的也不会影响,只是为了方便以后的一些可能的改进预留的设置.
+而时区会设置成+8中国区,关闭夏令时.如果你生活在国外,那你用这玩意干啥?伊朗也不行啊,我们两国屏蔽策略都不同好不好.朝鲜?我脑补的情节好多,让我休息一下.
