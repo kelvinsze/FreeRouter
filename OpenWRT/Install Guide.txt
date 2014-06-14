@@ -1,0 +1,11 @@
+1.Just put all files into OpenWRT Flash as the foler structure it
+was.(WinWCP will be fine)
+2.ssh login router,use "chmod +x *.sh" command to make all scripts you just
+uploaded excuteable.
+3.setup VPN server IP,username ,password.
+4.reboot
+
+1.把文件上传到OpenWRT路由的Flash里面,WinSCP就很好用.
+2.SSH登录进路由,用"chmod +x *.sh"命令,让刚才上传的脚本都有执行权限.
+3.在路由管理界面设置好VPN 服务器地址,用户名,密码.
+4.重启.
