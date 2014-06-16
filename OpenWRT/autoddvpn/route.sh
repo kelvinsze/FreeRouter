@@ -1471,6 +1471,8 @@ $1 -host 14.136.68.122 $2
 #add for feedly.com
 $1 -host 65.19.138.1 $2
 $1 -host 65.19.138.2 $2
+$1 -host 108.162.200.248 $2
+$1 -host 141.101.127.247 $2
 #add for kepkezelo.com
 $1 -host 178.32.221.29 $2
 #add for soundcloud.com
