@@ -1589,3 +1589,12 @@ $1 -host 184.154.178.130 $2
 $1 -host 103.245.222.131 $2
 #Add for downloads.openwrt.org
 $1 -host 78.24.191.177 $2
+#Add for img.photobucket.com
+$1 -host 8.12.204.123 $2
+$1 -host 209.84.13.118 $2
+$1 -host 198.78.193.126 $2
+#Add for smg.photobucket.com
+$1 -host 209.17.80.1 $2
+#Add for photobucket.com
+$1 -host 209.17.68.100 $2
+$1 -host 209.17.80.100 $2
