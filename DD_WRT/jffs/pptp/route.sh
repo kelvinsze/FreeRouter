@@ -1313,7 +1313,7 @@ $1 -net 108.160.165.0/24 $2
 $1 -net 108.160.166.0/24 $2
 #add for blog.dropbox.com
 $1 -net 107.21.0.0/16 $2
-#add for photos-X.dropbox.com other upload server
+#add for photos-X.dropbox.com
 $1 -net 23.23.0.0/16 $2
 $1 -net 23.21.0.0/16 $2
 $1 -net 54.235.0.0/16 $2
@@ -1331,7 +1331,6 @@ $1 -net 108.160.162.0/24 $2
 $1 -net 108.160.167.0/24 $2
 #add for dl.dropboxusercontent.com
 $1 -net 54.243.0.0/16 $2
-#add for dropbox used dt8kf6553cww8.cloudfront.net
 $1 -net 54.230.0.0/16 $2
 #add for dl.dropbox.com
 $1 -net 23.21.146.0/24 $2
@@ -1511,7 +1510,6 @@ $1 -host 190.93.246.58 $2
 $1 -host 190.93.247.58 $2
 $1 -host 190.93.245.58 $2
 $1 -host 141.101.114.59 $2
-################################################End Custom Part####################################################
 #Add for fuliba.net
 $1 -host 106.186.120.103 $2
 #Add for blog.goo.ne.jp
@@ -1598,3 +1596,6 @@ $1 -host 209.17.80.1 $2
 #Add for photobucket.com
 $1 -host 209.17.68.100 $2
 $1 -host 209.17.80.100 $2
+#Add for en.avaaz.org
+$1 -host 141.101.114.213 $2
+$1 -host 141.101.115.213 $2
