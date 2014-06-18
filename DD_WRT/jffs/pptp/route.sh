@@ -1564,6 +1564,8 @@ $1 -host 192.0.82.250 $2
 #Add for cn.wsj.com
 $1 -host 210.155.101.136 $2
 $1 -host 210.155.101.152 $2
+$1 -host 210.155.101.150 $2
+$1 -host 106.187.61.16 $2
 #Add for home.netvigator.com
 $1 -host 218.102.48.43 $2
 #Add for www.porntube.com
