@@ -45,10 +45,18 @@ fi
 OutPutFile="./dnsmasq.conf"
 Attach1="./ChinaCDN.txt"
 Attach2="./ChinaCustom.txt"
+CR='\015'
 if [ -f $OutPutFile ];
 then
 	rm -rf $OutPutFile
 fi
+echo "Autofix windows CR/LF issue in TXT file!"
+tr -d $CR <$Attach1 >CDNList.txt
+rm $Attach1
+mv CDNList.txt ChinaCDN.txt
+tr -d $CR <$Attach2 >CustomList.txt
+rm $Attach2
+mv CustomList.txt ChinaCustom.txt
 echo "##Dnsmasq.conf generated date:$(date)##" >>$OutPutFile
 echo "##Dnsmasq.conf generated date:$(date)##"
 echo "##All .CN Domain##" >>$OutPutFile
