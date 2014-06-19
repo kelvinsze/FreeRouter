@@ -29,7 +29,7 @@ then
 	ChinaDNS="1.2.4.8"
 elif [ $DNSCount = "4" ];
 then
-	ChinaDNS="202.96.199.132"
+	ChinaDNS="210.22.84.3"
 elif [ $DNSCount = "5" ];
 then
 	ChinaDNS="60.190.217.130"
