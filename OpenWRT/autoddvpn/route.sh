@@ -1486,21 +1486,6 @@ $1 -host 91.190.216.87 $2
 $1 -net 54.84.0.0/16 $2
 $1 -net 107.23.0.0/16 $2
 $1 -net 54.236.0.0/16 $2
-#Add for photos-h.ak.instagram.com
-$1 -host 210.155.101.247 $2
-$1 -host 210.155.101.169 $2
-#Add for photos-e.ak.instagram.com
-$1 -host 210.155.101.139 $2
-$1 -host 210.155.101.215 $2
-#Add for photos-c.ak.instagram.com
-$1 -host 106.187.61.24 $2
-$1 -host 106.187.61.17 $2
-#Add for photos-d.ak.instagram.com
-$1 -host 106.187.61.19 $2
-$1 -host 210.155.101.204 $2
-#Add for photos-g.ak.instagram.com
-$1 -host 210.155.101.145 $2
-$1 -host 210.155.101.246 $2
 #add for zh.wikipedia.com
 $1 -host 199.195.248.76 $2
 #add for bits.wikimedia.org
@@ -1616,3 +1601,5 @@ $1 -host 209.17.80.100 $2
 #Add for en.avaaz.org
 $1 -host 141.101.114.213 $2
 $1 -host 141.101.115.213 $2
+#Add for www.ntdtv.com
+$1 -host 75.126.174.249 $2
