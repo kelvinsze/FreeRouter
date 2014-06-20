@@ -1524,3 +1524,9 @@ $1 -host 210.69.89.199 $2
 $1 -host 210.69.89.198 $2
 #Add for hk.nextmedia.com
 $1 -host 113.21.203.1 $2
+#Add for www.dailymotion.com
+$1 -net 195.8.215.0/24 $2
+#Add for www.mefeedia.com
+$1 -host 209.35.159.130 $2
+#Add for www.cacnw.com
+$1 -host 74.208.197.124 $2
