@@ -14,7 +14,7 @@ $1 -net 75.101.140.0/24 $2
 # wiki.dropbox.com
 $1 -host 174.36.51.41 $2
 # for Google
-$1 -net 72.14.192.0/16 $2
+$1 -net 72.14.0.0/16 $2
 $1 -net 74.125.0.0/16 $2
 # static.cache.l.google.com in Taiwan
 $1 -net 60.199.175.0/24 $2
