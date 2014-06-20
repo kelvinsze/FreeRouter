@@ -1511,3 +1511,5 @@ $1 -host 96.127.160.130 $2
 $1 -host 173.236.110.98 $2
 #Add for www.wanglixiong.com
 $1 -host 69.163.201.140 $2
+#Add for bbs.ednchina.com
+$1 -host 203.92.211.101 $2
