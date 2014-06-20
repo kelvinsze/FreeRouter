@@ -1390,6 +1390,7 @@ $1 -net 54.236.0.0/16 $2
 #Add for photos-a~h.ak.instagram.com
 $1 -net 210.155.101.0/24 $2
 $1 -net 106.187.0.0/16 $2
+$1 -net 124.155.223.0/24 $2
 #add for zh.wikipedia.com
 $1 -host 199.195.248.76 $2
 #add for bits.wikimedia.org
