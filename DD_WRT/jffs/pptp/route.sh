@@ -1606,3 +1606,5 @@ $1 -host 75.126.174.249 $2
 #Add for twitpic.com
 $1 -host 96.127.160.130 $2
 $1 -host 173.236.110.98 $2
+#Add for www.wanglixiong.com
+$1 -host 69.163.201.140 $2
