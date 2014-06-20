@@ -1513,3 +1513,6 @@ $1 -host 199.96.156.215 $2
 #Add for cn.wsj.com
 $1 -host 203.116.50.48 $2
 $1 -host 203.116.50.40 $2
+#Add for www.epochtimes.com
+$1 -host 54.226.31.192 $2
+$1 -host 50.17.62.21 $2
