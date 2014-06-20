@@ -1513,3 +1513,5 @@ $1 -host 173.236.110.98 $2
 $1 -host 69.163.201.140 $2
 #Add for bbs.ednchina.com
 $1 -host 203.92.211.101 $2
+#Add for www.igfw.net
+$1 -host 199.96.156.215 $2
