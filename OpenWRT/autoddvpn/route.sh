@@ -1443,15 +1443,6 @@ $1 -host 66.6.43.20 $2
 $1 -host 174.120.238.130 $2
 #Add for tinypic.com
 $1 -host 209.17.68.209 $2
-#Add for cdnjs.cloudflare.com
-$1 -host 198.41.213.183 $2
-$1 -host 198.41.213.185 $2
-$1 -host 198.41.213.184 $2
-$1 -host 198.41.212.186 $2
-$1 -host 198.41.212.183 $2
-$1 -host 198.41.213.186 $2
-$1 -host 198.41.212.184 $2
-$1 -host 198.41.212.185 $2
 #Add for www.depic.me
 $1 -host 94.242.221.145 $2
 #Add for online.wsj.com
@@ -1467,12 +1458,8 @@ $1 -host 192.0.82.250 $2
 #Add for home.netvigator.com
 $1 -host 218.102.48.43 $2
 #Add for www.porntube.com
-$1 -host 198.41.185.175 $2
-$1 -host 198.41.191.174 $2
-$1 -host 198.41.184.175 $2
-$1 -host 198.41.189.174 $2
-$1 -host 198.41.190.174 $2
-$1 -host 111.119.1.87 $2
+$1 -net 198.41.0.0/16 $2
+$1 -net 111.119.1.0/24 $2
 #Add for cdn1.l3.porntubecdn.com
 $1 -net 8.27.249.0/24 $2
 #Add for tkn.porntube.com
@@ -1516,3 +1503,24 @@ $1 -host 203.116.50.40 $2
 #Add for www.epochtimes.com
 $1 -host 54.226.31.192 $2
 $1 -host 50.17.62.21 $2
+#Add for www.nanzao.com
+$1 -host 54.255.150.28 $2
+#Add for www.worldjournal.com
+$1 -host 67.202.67.201 $2
+#Add for www.huaxiabao.org
+$1 -host 208.109.181.30 $2
+#Add for www.rcinet.ca
+$1 -host 159.33.71.13 $2
+#Add for www.blinkx.com
+$1 -host 54.208.96.139 $2
+#Add for www.chubun.com
+$1 -host 133.242.206.203 $2
+#Add for www.comefromchina.com
+$1 -host 50.22.239.228 $2
+#Add for www.hrichina.org
+$1 -host 192.237.142.203 $2
+#Add for www.cna.com.tw
+$1 -host 210.69.89.199 $2
+$1 -host 210.69.89.198 $2
+#Add for hk.nextmedia.com
+$1 -host 113.21.203.1 $2
