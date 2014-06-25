@@ -23,3 +23,4 @@ images-amazon.com
 alipayobjects.com
 icson.com
 c-trip.com
+wkimg.com
