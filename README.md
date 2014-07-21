@@ -6,8 +6,7 @@ V1已经基本停止更新!以后只维护V2版本的数据.
 使用前请先阅读wiki:  
 https://github.com/lifetyper/FreeRouter/wiki
 
-方法都在Wiki里,让你带着M4回到古代也不能让你成为皇帝,带着制造M4的方法回去也许可以.
 
-如果你的路由有官方的OpenWRT支持,或者你有能力自己给它编译固件,强烈建议你们看看V2版的FreeRouter项目,这个比V1好用多了.
+如果你的路由有官方的OpenWRT支持,或者没官方支持但你有能力自己给它编译固件,强烈建议你们看看V2版的FreeRouter项目,这个比V1好用多了.
 https://github.com/lifetyper/FreeRouter_V2
 
