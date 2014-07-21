@@ -8,5 +8,6 @@ https://github.com/lifetyper/FreeRouter/wiki
 
 
 如果你的路由有官方的OpenWRT支持,或者没官方支持但你有能力自己给它编译固件,强烈建议你们看看V2版的FreeRouter项目,这个比V1好用多了.
+
 https://github.com/lifetyper/FreeRouter_V2
 
