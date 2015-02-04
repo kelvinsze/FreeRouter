@@ -24,6 +24,11 @@ $1 -host 78.16.49.15 $2
 # for all facebook
 $1 -net 66.220.0.0/16 $2
 $1 -net 69.63.0.0/16 $2
+#Add for businessweek.com
+$1 -host 69.191.215.14 $2
+$1 -host 69.191.252.14 $2
+$1 -host 54.215.199.194 $2
+$1 -host 54.215.153.166 $2
 # fbcdn
 $1 -net 96.17.8.0/24 $2
 # imgN.imageshack.us
@@ -786,9 +791,7 @@ $1 -host 69.163.242.152 $2
 $1 -host 69.163.249.178 $2
 $1 -host 69.172.200.91 $2
 $1 -host 69.181.52.124 $2
-$1 -host 69.191.215.14 $2
 $1 -host 69.191.242.22 $2
-$1 -host 69.191.252.14 $2
 $1 -host 69.197.153.220 $2
 $1 -host 69.197.183.149 $2
 $1 -host 69.20.11.136 $2
@@ -1290,6 +1293,10 @@ $1 -host 199.27.77.143 $2
 $1 -host 199.27.79.143 $2
 #add for secure-c.vimeocdn.com
 $1 -host 23.77.8.24 $2
+#add for imgur.com
+$1 -host 199.27.79.193 $2
+#Add for twse.com.tw
+$1 -net 61.57.47.0/24 $2
 #add for strong vpn
 $1 -host 216.131.84.126 $2
 #add for privace internet access.com
@@ -1445,7 +1452,9 @@ $1 -host 174.120.238.130 $2
 $1 -host 209.17.68.209 $2
 #Add for www.depic.me
 $1 -host 94.242.221.145 $2
-#Add for online.wsj.com
+#Add for wsj.com
+$1 -host 205.203.132.1 $2
+$1 -host 205.203.132.65 $2
 $1 -host 205.203.140.65 $2
 $1 -host 205.203.140.1 $2
 #Add for stats.wordpress.com
